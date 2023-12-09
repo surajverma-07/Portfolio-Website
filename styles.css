@@ -80,6 +80,7 @@ p{
     .main-left{
         width: 100%;
         height: 50%;
+        padding: 0px 8px;
     }
     .main-right{
         height: 50%;
