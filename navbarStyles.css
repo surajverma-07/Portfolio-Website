@@ -1,0 +1,78 @@
+:root {
+    --thin-paragraph: 'Kanit', sans-serif;
+    --thick-navbar-font: 'Noto Sans', sans-serif;
+    --main-font: 'Rubik', sans-serif;
+}
+/* font-family: 'Dhurjati',
+sans-serif;
+font-family: 'Kanit',
+sans-serif;
+font-family: 'Montserrat',
+sans-serif;
+font-family: 'Noto Sans',
+sans-serif;
+font-family: 'Rubik',
+sans-serif; */
+
+.logo-container {
+    margin: 0 20px;
+    height: 60px;
+    width: 180px;
+}
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: white;
+    height: 15%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0px;
+    border-bottom: 2px solid black;
+}
+
+nav {
+    width: 30%;
+}
+@media screen and (max-width:700px) {
+    nav{
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: start;
+    }
+        .logo-container {
+            margin: 0 10px;
+            height: 70px;
+            width: 180px;
+        }
+    header{
+        justify-content: space-between;
+        margin: 18px 0px;
+        height: 20%;
+    }
+    nav button{
+        padding: 0px 10px 10px 0px;
+    }
+    nav span{
+        width: 100%;
+    }
+  
+    
+}
+.nav-element {
+    text-decoration: none;
+    padding: 0 8px;
+    color: black;
+    font-family: var(--thick-navbar-font);
+    transition: text-decoration 0.5s ease-in-out;
+}
+
+.nav-element:hover {
+    text-decoration: underline;
+}
