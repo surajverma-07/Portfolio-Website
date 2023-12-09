@@ -1,0 +1,69 @@
+#center{
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+}
+.header{
+    display: flex;
+}
+#left,#right{
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 50px;
+    
+}
+#left{
+    width: 700px;
+    padding-left: 40px;
+
+}
+.head{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.head1{
+    padding-top: 7px;
+   font-size: 3rem;    
+}
+.description{
+    margin-top: 35px;
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+.description ul li div{
+    margin-top: 10px;
+}
+#right{
+  margin-left: 70px;
+  background-image: url(../images/suraj.jpeg);
+  background-repeat: no-repeat;
+  
+}
+.middle{
+    /* border: 2px solid blue; */
+    width: 100%;
+    /* height: fit-content; */
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 100px;
+}
+.mleft,.mright{
+    border: 2px solid purple;
+    height: 400px;
+    width: 600px;
+    margin-left: 45px;
+    padding-left: 20px;
+}
+#mlefthead,#mrighthead{
+    margin: auto;
+    text-align: center;
+    font-size: 2.7rem;
+}
+.head2{
+    font-size: 1.7rem;
+}
+.head3{
+    font-size: 1.2rem;
+}
