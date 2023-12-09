@@ -1,0 +1,33 @@
+:root {
+    --thin-paragraph: 'Kanit', sans-serif;
+    --thin-navbar-font: 'Montserrat', sans-serif;
+    --main-font: 'Rubik', sans-serif;
+}
+
+.logo-container {
+    margin: 0 20px;
+}
+
+header {
+    height: 15%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 30%;
+}
+
+.nav-element {
+    text-decoration: none;
+    padding: 0 10px;
+    color: black;
+    font-family: var(--thin-navbar-font);
+    transition: text-decoration 0.5s ease-in-out;
+}
+
+.nav-element:hover {
+    text-decoration: underline;
+}
