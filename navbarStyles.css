@@ -31,6 +31,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:10px 0px;
+    border-bottom: 2px solid black;
 }
 
 nav {
@@ -44,16 +46,20 @@ nav {
         flex-direction: column;
         align-items: start;
     }
+        .logo-container {
+            margin: 0 10px;
+            height: 70px;
+            width: 180px;
+        }
     header{
         justify-content: space-between;
         margin: 18px 0px;
+        height: 20%;
     }
     nav button{
-        padding: 0px 5px 0px 0px;
+        padding: 0px 10px 10px 0px;
     }
     nav span{
-        /* background-color: black; */
-        /* color: white; */
         width: 100%;
     }
   
@@ -61,7 +67,7 @@ nav {
 }
 .nav-element {
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 8px;
     color: black;
     font-family: var(--thick-navbar-font);
     transition: text-decoration 0.5s ease-in-out;
