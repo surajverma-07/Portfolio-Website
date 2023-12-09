@@ -15,26 +15,29 @@ body {
 }
 
 .main-homePage {
-
+    overflow: hidden;
     display: flex;
-    /* background-color: blue; */
     height: 85%;
     width: 100vw;
 }
 
 .main-left {
+    overflow: hidden;
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
     flex-direction: column;
 }
 .main-left h1{
     padding: 5px;
 }
 .main-right {
+    overflow: hidden;
     width: 50%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +45,6 @@ body {
 
 .main-right img {
     height: 100%;
-
 }
 
 h1{
@@ -53,9 +55,37 @@ p{
 }
 
 .right-img-container {
+    overflow: hidden;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width:700px) {
+
+
+    .main-homePage{
+        flex-wrap: nowrap;
+        display: flex;
+        overflow: hidden;
+        height: 100vh;
+        flex-direction: column-reverse;
+    }
+    .main-homePage h1,p{
+        padding:0px 8px;
+        text-align: center;
+    }
+    .main-left{
+        width: 100%;
+        height: 50%;
+    }
+    .main-right{
+        height: 50%;
+        width: 100%;
+    }
+    .right-img-container{
+        width: 70%;
+    }
 }
