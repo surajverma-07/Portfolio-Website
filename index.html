@@ -7,10 +7,10 @@
     <title>Suraj Verma</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    
+
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,14 +24,17 @@
 
 <body>
 
+    <!-- <div id="preloader"></div> -->
 
     <header>
         <div class="logo-container"><img src="./assets/images/surajlogo.png" alt="Suraj Verma"></div>
         <nav>
             <a class="nav-element" href="/"><span>Home</span></a>
             <a class="nav-element" href="./about/adout.html"><span>About</span></a>
+            <a class="nav-element" href="./projects/projects.html"><span>Projects</span></a>
+
             <a class="nav-element" href="./contact/contact.html"><span>Contact Me</span></a>
-            <button type="button" class="btn btn-warning">Download CVV</button>
+            
         </nav>
     </header>
 
@@ -43,13 +46,12 @@
             <h1>Hello , I'm Suraj Verma </h1>
             <p>A Skilled Web Developer </p>
             <p>Translating ideas into dynamic and user-friendly websites</p>
-            <p>
+            <button type="button" class="btn btn-warning">Download CVV</button>
 
-            </p>
         </div>
         <div class="main-right">
             <div class="right-img-container">
-                <img src="./assets/images/profileIMG.png" height="100%" width="100%" alt="">
+                <img src="./assets/images/profileIMG.png" height="100%" width="80%" alt="">
             </div>
         </div>
 
@@ -58,7 +60,16 @@
 
 
 
+    <script src="./scripts.js"></script>
+    <script src="./jQuery/jquery.js"></script>
 
+    <script>
+        var loader = document.getElementById("preloader ")
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+            console.log("loaded");
+        })
+    </script>
 </body>
 
 </html>
