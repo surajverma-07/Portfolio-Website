@@ -39,6 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 157px;
     padding: 30px;
     flex-direction: column;
 }
@@ -58,6 +59,7 @@ body {
 
 .main-right img {
     height: 100%;
+    margin-top: -50px;
 }
 
 h1 {
