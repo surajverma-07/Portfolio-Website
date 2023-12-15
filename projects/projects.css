@@ -1,0 +1,21 @@
+.project-section{
+    text-align: center;
+}
+
+
+.projects-container{
+    display: grid;
+    grid-template-columns:repeat(3,3fr);
+    word-wrap: break-word;
+    height: 400px;
+    width: 80vw;
+    margin: 10px auto;
+    border: 2px solid;
+    column-gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+.project-card {
+    border: 2px solid;
+
+}
