@@ -7,8 +7,8 @@
     display: grid;
     grid-template-columns:repeat(3,3fr);
     word-wrap: break-word;
-    height: 400px;
-    width: 80vw;
+    height: 700px;
+    width: 100vw;
     margin: 10px auto;
     border: 2px solid;
     column-gap: 10px;
@@ -17,5 +17,12 @@
 }
 .project-card {
     border: 2px solid;
+    height: 500px;
+    width: 300px;
 
+
+}
+.project-card img{
+    width: 100%;
+    height: 45%;
 }

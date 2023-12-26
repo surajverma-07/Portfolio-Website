@@ -25,6 +25,7 @@ body {
     --main-font: 'Rubik', sans-serif;
 }
 
+
 .main-homePage {
     overflow: hidden;
     display: flex;
@@ -77,6 +78,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.project-card{
+    /* background-color: red; */
+    /* width: 400px; */
 }
 
 @media screen and (max-width:700px) {
