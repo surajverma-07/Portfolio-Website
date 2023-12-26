@@ -1,69 +1,92 @@
-#center{
+#center {
     text-align: center;
     margin: auto;
-    border: 2px solid black;
-}
-.header{
-    display: flex;
-}
-#left,#right{
-    border: 2px solid red;
-    height: 400px;
-    width: 400px;
-    margin-top: 90px;
-    margin-left: 50px;
-    
-}
-#left{
-    width: 700px;
-    padding-left: 40px;
 
 }
-.head{
+
+.header {
+    display: flex;
+}
+
+#left,
+#right {
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.head {
     font-size: 3.5rem;
     font-weight: bold;
 }
-.head1{
+
+.head1 {
     padding-top: 7px;
-   font-size: 3rem;    
+    font-size: 3rem;
 }
-.description{
+
+.description {
     margin-top: 35px;
     padding-top: 10px;
     font-size: 1.5rem;
 }
-.description ul li div{
+
+.description ul li div {
     margin-top: 10px;
 }
-#right{
-  margin-left: 70px;
-  background-image: url(../images/suraj.jpeg);
-  background-repeat: no-repeat;
-  
+
+#right {
+    margin-left: 70px;
+    width: 50%;
+    background-image: url(../images/suraj.jpeg);
+    background-repeat: no-repeat;
+
 }
-.middle{
+
+.middle {
     /* border: 2px solid blue; */
     width: 100%;
     /* height: fit-content; */
     display: flex;
-    /* flex-direction: column; */
-    margin-top: 100px;
+
 }
-.mleft,.mright{
-    border: 2px solid purple;
-    height: 400px;
-    width: 600px;
-    margin-left: 45px;
-    padding-left: 20px;
+
+.mleft,
+.mright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;     border: 2px solid purple;
+    height: 300px;
+    width: 50%;
 }
-#mlefthead,#mrighthead{
-    margin: auto;
-    text-align: center;
+
+#mlefthead,
+#mrighthead {
     font-size: 2.7rem;
 }
-.head2{
-    font-size: 1.7rem;
-}
-.head3{
+
+.head2 {
     font-size: 1.2rem;
+}
+
+.head3 {
+    font-size: 1.2rem;
+}
+
+#about {
+    margin: auto;
+    width: 100%;
 }
