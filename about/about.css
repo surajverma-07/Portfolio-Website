@@ -90,3 +90,19 @@
     margin: auto;
     width: 100%;
 }
+.btn{
+    margin: 10px 10px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(74, 134, 206);
+    color: white;
+    font-weight: bold; 
+    cursor: pointer;
+    height: 7vh;
+}
+.btn :hover{
+   background-color: rgb(62, 65, 231);
+   color: black;
+   font-weight: bold;
+   transform: scale(1.1);
+}
