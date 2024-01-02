@@ -20,15 +20,21 @@
     border-right:2px solid black;
     font-size: 1.7rem;
     gap: 20px;
-}
+
 .about-left i{
     font-size: 2.2rem;
     padding-left: 9px;
 }
-.about-right{
-    height: 100%;
-    display: flex;
+
+
+#right {
+    width: 50%;
+    background-image: url(../images/suraj.jpeg);
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 407px;
 }
+
 
 .about-right .frontend ,.language{
     display: flex;
@@ -50,10 +56,9 @@
 .language:hover {
     background-color: #3a5666;
     transform: scale(1.05);
-
 }
 .frontend:hover {
     background-color: #3a5666;
     transform: scale(1.05);
 
-}
+  }
