@@ -1,89 +1,59 @@
-#center {
+.about-heading{
     text-align: center;
-    margin: auto;
+}
+#about{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 12px;
+    height: 250px;
+    margin: 20px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
 }
 
-
-#left,
-#right {
-    height: 400px;
-    width: 400px;
-    margin-top: 20px;
-    margin-left: 20px;
-
-}
-
-#left {
+.about-left{
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 50%;
+    justify-content: center;
     flex-direction: column;
-    padding-left: 40px;
-    text-align: center;
+    border-right:2px solid black;
+    font-size: 1.7rem;
+    gap: 20px;
 }
-
-.head {
-    font-size: 3.5rem;
-    font-weight: bold;
+.about-left i{
+    font-size: 2.2rem;
+    padding-left: 9px;
 }
-
-.head1 {
-    padding-top: 7px;
-    font-size: 3rem;
-}
-
-.description {
-    margin-top: 35px;
-    padding-top: 10px;
-    font-size: 1.5rem;
-}
-
-.description ul li div {
-    margin-top: 10px;
-}
-
-#right {
-    margin-left: 70px;
-    width: 50%;
-    background-image: url(../images/suraj.jpeg);
-    background-repeat: no-repeat;
-
-}
-
-.middle {
-    /* border: 2px solid blue; */
-    width: 100%;
-    /* height: fit-content; */
+.about-right{
+    height: 100%;
     display: flex;
-
 }
 
-.mleft,
-.mright {
+.about-right .frontend ,.language{
     display: flex;
-    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
     align-items: center;
-    flex-direction: column;     border: 2px solid purple;
-    height: 300px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+    flex-direction: column;
+    justify-content: space-around;
     width: 50%;
 }
+#about i{
+    padding-left: 2px;
 
-#mlefthead,
-#mrighthead {
-    font-size: 2.7rem;
 }
+.language:hover {
+    background-color: #3a5666;
+    transform: scale(1.05);
 
-.head2 {
-    font-size: 1.2rem;
 }
+.frontend:hover {
+    background-color: #3a5666;
+    transform: scale(1.05);
 
-.head3 {
-    font-size: 1.2rem;
-}
-
-#about {
-    background-color: green;
-    margin: auto;
-    width: 100%;
 }
