@@ -1,15 +1,17 @@
-#contact{
+#contact {
     width: 100vw;
     height: 400px;
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
-.contact-main{
+
+.contact-main {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
-.contact-me-child{
+
+.contact-me-child {
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -21,17 +23,20 @@
     margin: 10px;
     transition: transform 0.3s ease-in-out;
 }
-.contact-me-child i{
+
+.contact-me-child i {
     display: block;
     font-size: 5rem;
 }
 
-.contact-me-child div,a{
+.contact-me-child div,
+a {
     padding-top: 8px;
-font-size: 1.7rem;
+    font-size: 1.7rem;
 }
-.contact-me-child:hover{
-    background-color: #ececec;
+
+.contact-me-child:hover {
+    background-color: #3a5666;
     transform: scale(1.1);
 
 }
