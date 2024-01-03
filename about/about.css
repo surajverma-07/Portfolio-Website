@@ -1,12 +1,8 @@
 #center {
     text-align: center;
     margin: auto;
-
 }
 
-.header {
-    display: flex;
-}
 
 #left, #right {
     height: 400px;
@@ -87,6 +83,7 @@
 }
 
 #about {
+    background-color: green;
     margin: auto;
     width: 100%;
 }
