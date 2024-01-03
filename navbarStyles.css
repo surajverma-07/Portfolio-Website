@@ -16,8 +16,8 @@ sans-serif; */
 
 .logo-container {
     margin: 0 20px;
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
 }
 .logo-container img{
     width: 100%;
@@ -37,6 +37,26 @@ header {
 
 nav {
     width: 30%;
+}
+nav a span {
+    font-size: 2rem;
+}
+.nav-element {
+    text-decoration: none;
+    padding: 0 8px;
+    color: black;
+    font-family: var(--thick-navbar-font);
+    transition: text-decoration 0.5s ease-in-out;
+}
+
+.nav-element:hover {
+    text-decoration: none;
+    background-color:#89c4ee;
+    /* height: 100%; */
+    border-radius: 7px;
+    color: rgb(4, 13, 42);
+
+
 }
 @media screen and (max-width:700px) {
     nav{
@@ -64,15 +84,4 @@ nav {
     }
   
     
-}
-.nav-element {
-    text-decoration: none;
-    padding: 0 8px;
-    color: black;
-    font-family: var(--thick-navbar-font);
-    transition: text-decoration 0.5s ease-in-out;
-}
-
-.nav-element:hover {
-    text-decoration: underline;
 }

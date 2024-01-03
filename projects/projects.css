@@ -9,8 +9,8 @@
     word-wrap: break-word;
     height: 700px;
     width: 100vw;
-    margin: 10px auto;
-    border: 2px solid;
+    margin: -20px auto;
+    /* border: 2px solid; */
     column-gap: 10px;
     align-items: center;
     justify-items: center;
