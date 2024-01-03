@@ -24,8 +24,12 @@ body {
     --thin-navbar-font: 'Montserrat', sans-serif;
     --main-font: 'Rubik', sans-serif;
 }
-
-
+nav a{
+    font-size: 1.4rem;
+}
+.header{
+    font-size: 3.7rem;
+}
 .main-homePage {
     overflow: hidden;
     display: flex;
