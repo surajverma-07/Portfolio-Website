@@ -44,18 +44,17 @@ a {
 
 @media screen and (max-width:700px) {
 
-#contact{
-    margin-top:30px ;
-    border-top:1px solid white ;
-    height: 1060px;
-}
-.contact-main{
+    #contact {
+        height: 1060px;
+    }
+
+    .contact-main {
 
 
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
 
 
-}
+    }
 
 
 
