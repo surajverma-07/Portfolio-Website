@@ -3,6 +3,7 @@
     --thick-navbar-font: 'Noto Sans', sans-serif;
     --main-font: 'Rubik', sans-serif;
 }
+
 /* font-family: 'Dhurjati',
 sans-serif;
 font-family: 'Kanit',
@@ -19,7 +20,8 @@ sans-serif; */
     height: 80px;
     width: 80px;
 }
-.logo-container img{
+
+.logo-container img {
     width: 100%;
     height: 100%;
 }
@@ -31,16 +33,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:10px 0px;
+    padding: 10px 0px;
     border-bottom: 2px solid black;
 }
 
 nav {
     width: 30%;
 }
+
 nav a span {
     font-size: 2rem;
 }
+
 .nav-element {
     text-decoration: none;
     padding: 0 8px;
@@ -51,37 +55,43 @@ nav a span {
 
 .nav-element:hover {
     text-decoration: none;
-    background-color:#89c4ee;
+    background-color: #89c4ee;
     /* height: 100%; */
     border-radius: 7px;
     color: rgb(4, 13, 42);
 
 
 }
+
 @media screen and (max-width:700px) {
-    nav{
-        width: 30%;
+    nav {
+        width: 35%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: start;
+        top: 0;
     }
-        .logo-container {
-            margin: 0 10px;
-            height: 70px;
-            width: 180px;
-        }
-    header{
+
+    .logo-container {
+        margin: 0 10px;
+        height: 70px;
+        width: 180px;
+    }
+
+    header {
         justify-content: space-between;
-        margin: 18px 0px;
-        height: 20%;
+        /* margin: 18px 0px; */
+        height: 15%;
     }
-    nav button{
+
+    nav button {
         padding: 0px 10px 10px 0px;
     }
-    nav span{
+
+    nav span {
         width: 100%;
     }
-  
-    
+
+
 }
