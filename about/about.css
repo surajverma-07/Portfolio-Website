@@ -13,18 +13,28 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.about-left {
+.about-left,.transform {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    border-right: 2px solid black;
     font-size: 1.7rem;
     gap: 20px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.about-left{
+    border-right: 2px solid black;
+
+}
+.transform{
+    width: 90%;
+    height: 90%;
+    border-radius: 12px;
 }
 
-.about-left i {
+.transform i {
     font-size: 2.2rem;
     padding-left: 9px;
 }
@@ -54,6 +64,11 @@
 #about i {
     padding-left: 2px;
 
+}
+.transform:hover{
+    border: 1px solid black;
+    background-color: #3a5666;
+    transform:scale(1.07);
 }
 
 .language:hover {
