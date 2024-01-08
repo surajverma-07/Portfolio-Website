@@ -40,3 +40,28 @@ a {
     transform: scale(1.1);
 
 }
+
+
+@media screen and (max-width:700px) {
+
+    #contact {
+        height: 1060px;
+    }
+
+    .contact-main {
+
+
+        grid-template-columns: 1fr;
+
+
+    }
+
+
+
+
+
+
+
+
+
+}
