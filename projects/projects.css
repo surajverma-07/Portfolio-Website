@@ -13,6 +13,7 @@
     column-gap: 10px;
     align-items: center;
     justify-items: center;
+    margin-top: -60px ;
 }
 
 .project-card {
@@ -20,9 +21,10 @@
     border: 2px solid rgb(0, 0, 0);
     height: 550px;
     border-radius: 12px;
-    width: 377px;
+    width: 397px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
+    
 }
 
 .card-body a{
@@ -34,7 +36,13 @@
 }
 .project-card:hover {
     transform: scale(1.1);
+    background-color: var(--darkblue);   
+    color: var(--white); 
+    h3{
+        color: var(--orange);
+    }
 }
+
 
 .project-card img {
     width: 100%;

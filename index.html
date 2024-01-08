@@ -16,6 +16,9 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Play&family=Roboto&family=Tektur&family=Ubuntu:wght@300&display=swap');
+  </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -37,7 +40,7 @@
     <div class="logo-container"><img src="./images/logo1.png" alt="Suraj Verma"></div>
 
     <nav>
-      <div class="nav-element"><a href="#"><span>Home</span></a></div>
+      <div class="nav-element"><a href="#home"><span>Home</span></a></div>
       <!-- <a class="nav-element" href="./about/adout.html"><span>About</span></a> -->
       <div class="nav-element"><a href="#about1"><span>About</span></a></div>
       <div class="nav-element"><a href="#project"><span>Projects</span></a></div>
@@ -49,12 +52,12 @@
 
 
 
-  <main class="main-homePage">
+  <main class="main-homePage" id="home">
 
     <div class="main-left">
-      <h1><i class="fa-brands fa-ello"></i> Hello , I'm Suraj Verma </h1>
-      <p>A Skilled Web Developer </p>
-      <p>Translating ideas into dynamic and user-friendly websites</p>
+      <h1 class="darkblue " id="head1"><i class="fa fa-smile-o" aria-hidden="true" style="color: var(--darkblue);"></i> Hello , I'm Suraj Verma </h1>
+      <p class="texts">A Skilled Web Developer </p>
+      <p class="texts">Translating ideas into dynamic and user-friendly websites</p>
       <button type="button" class="btn btn-warning"><a href="./images/Suraj resume.pdf" target="_blank">Download
           CVV</a></button>
 
@@ -70,65 +73,45 @@
   <!-- <hr style="color: aquamarine; height: 5%;"> -->
   <br id="about1">
   <hr>
-  <h1 class="about-heading ">About me</h1>
+  <h1 class="about-heading ">About Me</h1>
   <section id="about" name="about">
 
     <div class="about-left">
       <div class="transform">
-      <div>Student at Bhilai Institute of Technology Durg <i class="fa-solid fa-building-columns"></i></div>
-      <div>Public Relations Associate at Hult-Prize <i class="fa-solid fa-graduation-cap"></i></div>
-      <div>Technical member at Public Speaking Club BITD <i class="fa-brands fa-google-scholar"></i></div>
+      <div>Student at Bhilai Institute of Technology Durg <i class="fa fa-solid fa-building-columns"></i></div>
+      <div>Public Relations Associate at Hult-Prize <i class="fa fa-solid fa-graduation-cap"></i></div>
+      <div>Technical member at Public Speaking Club BITD <i class="fa fa-laptop" aria-hidden="true"></i></div>
       </div>
           </div>
 
 
     <div class="about-right">
       <div class="frontend">
-        <h3>Frontend Web Devlopment <i class="fa-solid fa-palette"></i></h3>
-        <div>React JS<i class="fa-brands fa-react"></i></div>
-        <div>Java Script <i class="fa-brands fa-js"></i></div>
-        <div>css<i class="fa-brands fa-css3-alt"></i></div>
-        <div>Html<i class="fa-brands fa-html5"></i></div>
+        <h3 class="darkblue">Frontend Web Devlopment <i class="fa-solid fa fa-palette"></i></h3>
+        <div class="f19rem">React JS<i class="fao fa-brands fa-react"></i></div>
+        <div class="f19rem">Java Script <i class="fao fa-brands fa-js"></i></div>
+        <div class="f19rem">css<i class="fao fa-brands fa-css3-alt"></i></div>
+        <div class="f19rem">Html<i class="fao fa-brands fa-html5"></i></div>
       </div>
 
       <div class="language">
-        <h3>Programming Languages :</h3>
-        <div>C++ (3star at hackerrank)</div>
-        <div>C Programming (3 star at hackerrank)</div>
-        <div>Python</div>
+        <h3 class="darkblue">Programming Languages <i class="fa fa-code"></i></h3>
+        <div class="f19rem">C++ (3star at hackerrank)</div>
+        <div class="f19rem">C Programming (3 star at hackerrank)</div>
+        <div class="f19rem">Python</div>
       </div>
     </div>
   </section>
-
-  <hr style="color: rgb(255, 255, 255);">
-
+<br>
+  <hr style="color: rgb(175, 162, 162);">
   <section id="project" class="project-section">
     <h1 class="project-heading-title">Projects</h1>
     <div class="projects-container">
-      <!-- 
-      <div class="project-card">
-        <h4>E-Waste Facility locator</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ratione sapiente veniam ab consequatur
-          repudiandae dolor eos temporibus cum laboriosam sunt possimus veritatis? Totam hic laudantium quidem a natus
-          porro.</p>
-      </div>
-      <div class="project-card">
-        <h4>Project Title</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ratione sapiente veniam ab consequatur
-          repudiandae
-          dolor eos temporibus cum laboriosam sunt possimus veritatis? Totam hic laudantium quidem a natus porro.</p>
-      </div>
-      <div class="project-card">
-        <h4>Project Title</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ratione sapiente veniam ab consequatur
-          repudiandae
-          dolor eos temporibus cum laboriosam sunt possimus veritatis? Totam hic laudantium quidem a natus porro.</p>
-      </div> -->
-
+     
       <div class="card  project-card">
         <img src="./images/project1.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Gym Portfolio </h5>
+          <h3  class="card-title darkblue">Gym Portfolio </h3>
           <p class="card-text">Simple Gym Portfolio websites created for local gym owner with minimum facility</p>
           <a href=" https://surajverma-07.github.io/gym-website/" target="_blank" class="btn btn-primary">Go to
             Website</a>
@@ -137,7 +120,7 @@
       <div class="card  project-card">
         <img src="./images/project2.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Food Delivery</h5>
+          <h3  class="card-title darkblue">Food Delivery</h3>
           <p class="card-text">Creating responsive food Delivery Website we have multiple food option and online
             delivery system </p>
 
@@ -148,7 +131,7 @@
       <div class="card  project-card e-waste-card">
         <img src="./images/project3.png" class="card-img-top" alt="...">
         <div class="card-body e-waste-discription">
-          <h5 class="card-title">E-Waste Facility Locator</h5>
+          <h3  class="card-title darkblue">E-Waste Facility Locator</h3>
           <p class="card-text">To tackle problem of harmfull E-Waste we (team coders united) devloped E-Waste facility
             locator which connect peoples to E-Waste athority of INDIA to desmental E-waste .</p>
           <a href="https://surajverma-07.github.io/E-Waste-Facility-Locator/" target="_blank" class="btn btn-primary">Go
@@ -162,35 +145,36 @@
 <hr>
   <section id="contact">
 
-    <h2>Contact Me <i class="fa-solid fa-id-card"></i> </h2>
+    <h1>Contact Me <i class="fa-solid fa-id-card"></i> </h1>
+    <br>
     
     <!-- Email Card  -->
     <div class="contact-main  ">
       <div class="contact-me-child">
         <i class="fa-regular fa-envelope"></i>
-        <div>Mail</div>
-        <a href="mailto:surajkumarverma662@gmail.com">surajkumarverma662@gmail.com</a>
+        
+        <a href="mailto:surajkumarverma662@gmail.com"><div>Mail</div></a>
 
       </div>
 
       <!-- phone number / Call Card  -->
       <div class="contact-me-child"> <i class="fa-solid fa-phone"></i>
-        <div> Call </div>
-        <div class="phone info"><a href="tel:+91 6266939975">+91 6266939975</a></div>
+      
+        <div class="phone info"><a href="tel:+91 6266939975">  <div> Call </div></a></div>
       </div>
 
       <!-- Instagram Card  -->
       <div class="contact-me-child">
         <i class="fa-brands fa-instagram"></i>
-        <div>Instagram</div>
-        <a href="https://www.instagram.com/surajverma_00_7/ " target="_blank">surajverma_00_7</a>
+        
+        <a href="https://www.instagram.com/surajverma_00_7/ " target="_blank"><div>Instagram</div></a>
       </div>
 
       <!-- Linkedin card  -->
       <div class="contact-me-child">
         <i class="fa-brands fa-linkedin"></i>
-        <div>Linkedin</div>
-        <a href="https://www.linkedin.com/in/suraj-kumar-verma-699b5a245/" target="_blank">Suraj Kumar Verma</a>
+        
+        <a href="https://www.linkedin.com/in/suraj-kumar-verma-699b5a245/" target="_blank"><div>Linkedin</div></a>
       </div>
 
     </div>

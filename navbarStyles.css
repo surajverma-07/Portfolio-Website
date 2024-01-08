@@ -27,14 +27,16 @@ sans-serif; */
 }
 
 header {
-    background-color: #c8dcea;
+    /* background-color: #c8dcea; */
+    background-color: var(--white);
     height: 15%;
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid var(--light);
+    box-shadow: 0px 1px 4px var(--gray) ;
 }
 
 nav {
@@ -49,21 +51,20 @@ nav a span {
     text-decoration: none;
     padding: 0 8px;
     color: black;
-    font-family: var(--thick-navbar-font);
+    /* font-family: var(--thick-navbar-font); */
+     font-family: 'Ubuntu', sans-serif;;
     transition: text-decoration 0.5s ease-in-out;
 }
 .nav-element a{
     height: 100%;
 }
-.nav-element a:hover {
+.nav-element a:hover{
     text-decoration: none;
-    background-color: lightcyan;
-    /* height: 100%; */
-    border-radius: 7px;
-    color: rgb(0, 0, 0);
-
-
 }
+.nav-element span:hover{
+    color: var(--orange);
+} 
+
 
 @media screen and (max-width:700px) {
     nav{
