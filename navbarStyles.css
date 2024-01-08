@@ -37,34 +37,37 @@ header {
 
 nav {
     width: 30%;
+    display: flex;
 }
 nav a span {
     font-size: 2rem;
 }
-.nav-element {
+.nav-element span{
     text-decoration: none;
     padding: 0 8px;
     color: black;
     font-family: var(--thick-navbar-font);
     transition: text-decoration 0.5s ease-in-out;
 }
-
-.nav-element:hover {
+.nav-element a{
+    height: 100%;
+}
+.nav-element a:hover {
     text-decoration: none;
-    background-color:#89c4ee;
+    background-color: lightcyan;
     /* height: 100%; */
     border-radius: 7px;
-    color: rgb(4, 13, 42);
+    color: rgb(0, 0, 0);
 
 
 }
 @media screen and (max-width:700px) {
     nav{
-        width: 30%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: start;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: 10px; */
+        
     }
         .logo-container {
             margin: 0 10px;
@@ -75,12 +78,14 @@ nav a span {
         justify-content: space-between;
         margin: 18px 0px;
         height: 20%;
+        display: flex;
+        flex-direction: column;
     }
     nav button{
         padding: 0px 10px 10px 0px;
     }
-    nav span{
-        width: 100%;
+    nav a span{
+        font-size: 1.3rem;
     }
   
     
